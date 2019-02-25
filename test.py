@@ -22,3 +22,5 @@ accountdf['industry'] = accountdf['valuation_symbol'].apply(lambda x:get_symbol_
         mc = q['valuation_market_cap'].sum()/allmc
         weight_bench_i_dict[s]=mc
         weight_bench_i.append(mc)
+		
+#20190225  -test modify
